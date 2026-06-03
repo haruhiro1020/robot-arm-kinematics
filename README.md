@@ -16,7 +16,13 @@ src/
 │   ├── part4_rrt_fcl/               # RRT 経路計画（FCL 干渉判定）
 │   └── part5_diff_inverse_kinematics/ # 微分逆運動学
 │
-└── three_dof/                       # 3自由度ロボットアーム
+├── three_dof/                       # 3自由度ロボットアーム
+│   ├── part1_forward_kinematics/
+│   ├── part2_inverse_kinematics/
+│   ├── part3_rrt_fcl/
+│   └── part4_diff_inverse_kinematics/
+│
+└── six_dof/                         # 6自由度ロボットアーム
     ├── part1_forward_kinematics/
     ├── part2_inverse_kinematics/
     ├── part3_rrt_fcl/
@@ -55,7 +61,9 @@ src/
 
 ```
 Robot（抽象基底クラス）
-└── Robot2DoF
+├── Robot2DoF
+├── Robot3DoF
+└── Robot6DoF
 ```
 
 ### 主なメソッド（Robot 基底クラス）
