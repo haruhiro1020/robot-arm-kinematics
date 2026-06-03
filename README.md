@@ -9,6 +9,10 @@
 
 ```
 src/
+├── common/
+│   ├── part2_singularity/           # 特異点の説明
+│   └── part3_one_axis_rot/          # 1軸回転（基本）
+│
 ├── two_dof/                         # 2自由度ロボットアーム
 │   ├── part1_forward_kinematics/    # 順運動学
 │   ├── part2_inverse_kinematics/    # 逆運動学
