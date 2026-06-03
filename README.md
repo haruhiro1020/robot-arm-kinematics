@@ -9,9 +9,18 @@
 
 ```
 src/
-└── common/
-    ├── part2_singularity/           # 特異点の説明
-    └── part3_one_axis_rot/          # 1軸回転（基本）
+├── two_dof/                         # 2自由度ロボットアーム
+│   ├── part1_forward_kinematics/    # 順運動学
+│   ├── part2_inverse_kinematics/    # 逆運動学
+│   ├── part3_trajectory/            # 軌道生成
+│   ├── part4_rrt_fcl/               # RRT 経路計画（FCL 干渉判定）
+│   └── part5_diff_inverse_kinematics/ # 微分逆運動学
+│
+└── three_dof/                       # 3自由度ロボットアーム
+    ├── part1_forward_kinematics/
+    ├── part2_inverse_kinematics/
+    ├── part3_rrt_fcl/
+    └── part4_diff_inverse_kinematics/
 ```
 
 ---
